@@ -57,19 +57,22 @@ const carBrands = [
 
 export const BrandBanners = () => {
 return (
-    <div className='w-[90%] m-auto mt-8 '>
-        <div flex justify-between items-center>
-            <h1 className='font-sans text-center font-semibold text-xl '> Top Brands We Worked With</h1>
-            <div className='m-auto mt-4 h-[90px] w-[90%] rounded-lg bg-slate-200 overflow-hidden'>
+    <div className='w-full m-auto mt-3 '>
+        <div flex justify-between items-center >
+            
+            <h1 className='text-2xl text-center mt-3  mb-2 font-sans '> Top Brands We Worked With</h1>
+            <hr className='mt-2'/>
+            <div className='m-auto mt-4 w-full overflow-hidden mb-3  '>
                 <ul className='flex gap-3 ml-4 mt-3  justify-start items-center animate-infinite-scroll animation-play-state:paused'>
                     {carBrands.map((brand ) => (
                         <li key={brand.id} >
-                        <img src={brand.logo} alt=""  className='h-16 p-2 w-28 object-contain'/>
+                        <img src={brand.logo} alt=""  className='h-16 p-1 w-28 object-contain'/>
                         </li>
                     ))}
                 </ul>
 
             </div>
+            <hr />
         </div>
     </div>
 )

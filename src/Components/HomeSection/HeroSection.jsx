@@ -15,16 +15,18 @@ export const HeroSection = () => {
     const next = () => setCurr(curr => curr === slides.length - 1 ? 0 : curr +1 );
 
 return (
-    <div className='m-auto mt-3 h-[200px] w-[90%] flex items-center  justify-center overflow-hidden rounded-lg relative md:h-[500px]'>
-        <div className=' flex w-full h-[500px] items-center justify-centre transition-transform ease-out duration-500' style={{transform: `translateX(-${curr * 100}%)`}}>
+    <div className='m-auto mt-3  overflow-hidden rounded-lg relative'>
+        <div className=' flex justify-center items-center'>
+            <h1 className='text-2xl text-center font-sans'>Products Demo</h1>
+
+        </div>
+        <div className=' flex w-full h-auto items-center justify-centre transition-transform ease-out duration-500' style={{transform: `translateX(-${curr * 100}%)`}}>
 
         {slides.map((slidein, index) => (
             <img key={index} src={slidein} alt=''  />
 
         ))}
-        {/* <img src={slideimg} alt="" />
-          <img src={porsche} alt=""/>
-            <img src={simage} alt="" /> */}
+
         </div>
         <div className='absolute inset-0 flex items-center justify-between p-1 md:p-4'>
             <button onClick={prev} className='p-1 rounded-full shadow bg-white text-gray-800 '>
