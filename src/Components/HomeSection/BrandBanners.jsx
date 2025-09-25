@@ -57,7 +57,7 @@ const carBrands = [
 
 export const BrandBanners = () => {
 return (
-    <div className='w-full m-auto mt-3 '>
+    <div className='w-full m-auto mt-5 '>
         <div flex justify-between items-center >
             
             <h1 className='text-2xl text-center mt-3  mb-2 font-sans '> Top Brands We Worked With</h1>

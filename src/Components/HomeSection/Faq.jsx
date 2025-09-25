@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
 import { FaPlusCircle, FaMinusCircle } from "react-icons/fa";
+import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 export const Faq = () => {
     const [activeQuestion, setActiveQuestion] = useState(null);
@@ -42,9 +44,11 @@ export const Faq = () => {
                         <button className="w-full text-left text-xl focus:outline-none p-4 bg-white rounded-lg shadow-md flex justify-between items-center" onClick={() => setActiveQuestion(activeQuestion === q.id ? null : q.id)}>
                             {q.question}
                             {activeQuestion === q.id ? (
-                                <FaMinusCircle/> 
+                                <FaChevronUp/>
+                                
                             ) : (
-                                <FaPlusCircle/>
+                                <FaChevronDown/>
+                            
                             )}
 
                         </button>
