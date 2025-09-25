@@ -1,5 +1,5 @@
 import React from 'react'
-import cars from '../../assets/slidesImages/cars.jpg'
+import cars from '../../assets/slidesImages/Cars.jpg'
 import matt from '../../assets/slidesImages/matt.jpg'
 import Niraj from '../../assets/slidesImages/Nirajdp.jpg'
 
