@@ -9,20 +9,12 @@ return (
         <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 pt-24 pb-16 sm:pt-32 sm:pb-20 md:pt-36 md:pb-24">
         <div className="flex flex-col items-center justify-center gap-8">
             <div className="space-y-6 max-w-3xl text-center animate-in fade-in slide-in-from-bottom-10 duration-700">
-            {/* <div className="inline-flex items-center rounded-full border border-[#52AF83]/20 px-4 py-1.5 text-sm font-semibold bg-white/70 backdrop-blur-md dark:bg-gray-800/70">
-                <span className="relative flex h-2.5 w-2.5 mr-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#52AF83] opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#52AF83]"></span>
-                </span>
-                New Courses Launched
-            </div> */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-playfair font-extrabold leading-tight tracking-tight">
                 Advertise Your Number Plates
                 <br />
-                <span className="bg-gradient-to-r from-[#a3af52] via-[#3d8b63] to-[#2a6b4a] bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-[#52AF83] via-[#3d8b63] to-[#2a6b4a] bg-clip-text text-transparent">
                 The Modern Way
                 </span>
-                {/* from-[#52AF83] via-[#3d8b63] to-[#2a6b4a] */}
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-200 max-w-2xl mx-auto">
                 Showcase your personality on the road with stylish, custom number plates. Stand out, stay unique, and make every drive unforgettable.
@@ -32,22 +24,6 @@ return (
                 <button className='px-2 py-2 w-32 bg-gray-900 border-[#52AF83] rounded-lg text-white cursor-pointer hover:bg-amber-600 '>View Products</button>
 
             </div>
-            
-            {/* <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                <Button
-                asChild
-                className="px-6 py-5 text-base bg-[#52AF83] hover:bg-[#3d8b63] text-white transition-colors rounded-lg"
-                >
-                <Link href="/learn/html">Start Learning Now</Link>
-                </Button>
-                <Button
-                asChild
-                variant="outline"
-                className="px-6 py-5 text-base border-2 border-[#52AF83] text-[#52AF83] hover:bg-[#52AF83]/10 transition-colors rounded-lg"
-                >
-                <Link href="/learn">Explore Courses</Link>
-                </Button>
-            </div> */}
                 
             </div>
             </div>

@@ -9,7 +9,7 @@ export const AboutHead = () => {
         {id:2, name: 'Tish Thomas', role: 'Account Manager', img: ''},
         {id:3, name: 'Angela McKeough', role: 'Product Specialist', img: ''},
         {id:4, name: 'Matt', role: 'Printing Specialist', img: ''},
-        {id:5, name: 'Niraj Gajurel', role: 'Screen Printer', img: Niraj},
+        {id:5, name: 'Niraj Gajurel', role: 'IT Specialist', img: Niraj},
 
     ]
   return (

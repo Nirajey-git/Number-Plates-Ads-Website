@@ -60,7 +60,7 @@ return (
     <div className='w-full m-auto mt-5 '>
         <div flex justify-between items-center >
             
-            <h1 className='text-2xl text-center mt-3  mb-2 font-sans '> Top Brands We Worked With</h1>
+            <h1 className='text-2xl text-center mt-3  mb-2 font-sans font-semibold '> Top Brands We Worked With</h1>
             <hr className='mt-2'/>
             <div className='m-auto mt-4 w-full overflow-hidden mb-3  '>
                 <ul className='flex gap-3 ml-4 mt-3  justify-start items-center animate-infinite-scroll animation-play-state:paused'>
