@@ -44,7 +44,7 @@ export const Footer = () => {
        </div>
       
     </div>
-    <hr className='mx-5'/>
+    <hr className='mx-5 '/>
     <footer>
         <div className='text-center p-3 bg-white/70'>
             <p>© {currentYear} Number Plates Ads. All rights reserved.</p>
