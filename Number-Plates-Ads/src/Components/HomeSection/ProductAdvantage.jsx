@@ -9,13 +9,13 @@ export const ProductAdvantage = () => {
         fetch("http://127.0.0.1:8000/api/productAdvantage/")
             .then((res) => res.json())
             .then((data)=> setProducts(data))
-    })
+    }, [])
 
     useEffect(() => {
         fetch("http://127.0.0.1:8000/api/description/")
             .then((res) => res.json())
             .then((data)=> setDescription(data[0]))
-    })
+    }, [])
   return (
     <div className='flex flex-col justify-center  bg-white'>
         <div className='w-full p-6 m-3'>

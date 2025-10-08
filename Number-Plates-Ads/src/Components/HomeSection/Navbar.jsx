@@ -14,7 +14,7 @@ export const Navbar = () => {
             <ul className=' hidden md:flex justify-between gap-8 list-none text-lg cursor-pointer'>
                 <li className='font-sans transition-all hover:text-yellow-600 active:text-yellow-600'><NavLink to="/">Home</NavLink></li>
                 <li className='font-sans transition-all hover:text-yellow-600'><NavLink to="/about">About</NavLink></li>
-                <li className='font-sans transition-all hover:text-yellow-600'><NavLink to="">Products</NavLink></li>
+                <li className='font-sans transition-all hover:text-yellow-600'><NavLink to="/products">Products</NavLink></li>
                 <li className='font-sans transition-all hover:text-yellow-600'><NavLink to="/contact">Contact</NavLink></li>
             </ul>
         </nav>
@@ -25,7 +25,7 @@ export const Navbar = () => {
         >
             <li className='list-none w-full text-center p-4 hover:bg-text-400 transition-all cursor-pointer'><NavLink to="/"  onClick={() => setIsMenuOpen(false)}>Home</NavLink></li>
             <li className='list-none w-full text-center p-4 hover:bg-text-400 transition-all cursor-pointer'><NavLink to="/about"  onClick={() => setIsMenuOpen(false)}>About</NavLink></li>
-            <li className='list-none w-full text-center p-4 hover:bg-text-400 transition-all cursor-pointer'><NavLink to=""  onClick={() => setIsMenuOpen(false)}>Products</NavLink></li>
+            <li className='list-none w-full text-center p-4 hover:bg-text-400 transition-all cursor-pointer'><NavLink to="/products"  onClick={() => setIsMenuOpen(false)}>Products</NavLink></li>
             <li className='list-none w-full text-center p-4 hover:bg-text-400 transition-all cursor-pointer'><NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>Contact</NavLink></li>
 
 
