@@ -4,6 +4,13 @@ from .models import ProductAdvantage
 from .models import Description
 from .serializers import ProductAdvantageSerializer
 from .serializers import DescriptionSerializer
+from .models import Brands
+from .serializers import BrandsSerializer
+
+
+class BrandsViewSet(ModelViewSet):
+    queryset = Brands.objects.all()
+    serializer_class = BrandsSerializer
 
 
 class DescriptionViewSet(ModelViewSet):
