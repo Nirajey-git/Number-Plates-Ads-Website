@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-p8a%^hnpwpf=jb4qf3l2kf9l^no5e5szhaospc9%ocxw8a61yt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['number-plates-ads-website.onrender.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
