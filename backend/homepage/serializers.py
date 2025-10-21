@@ -19,3 +19,4 @@ class ProductAdvantageSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProductAdvantage
         fields = '__all__'
+        
