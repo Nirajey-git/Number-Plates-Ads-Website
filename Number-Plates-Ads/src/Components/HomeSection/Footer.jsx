@@ -17,7 +17,7 @@ export const Footer = () => {
          <div className='flex gap-4 mt-3 '>
         <BsFacebook  className='size-6 cursor-pointer text-grey-600'/>
         <FaInstagram className='size-6 cursor-pointer text-grey-600' />
-        <FaLinkedinIn className='size-6 cursor-pointer text-grey-600' />
+        <a href='https://www.linkedin.com/company/number-plate-advertising-pty-ltd/' target='_blank'><FaLinkedinIn className='size-6 cursor-pointer text-grey-600'/></a>
         </div>
        </div>
        <div className='flex flex-col justify-center p-3'>
@@ -25,15 +25,15 @@ export const Footer = () => {
         <ul className='flex flex-col justify-center gap-3 font-normal text-md'>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
-            <li>Products</li>
-            <li>Contact</li>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
        </div>
 
        <div className=' gap-2 p-3'>
-        <a href="mailto:Numberplatesads@gmail.com" className="flex items-center gap-2">
+        <a href="mailto:accounts@numberplates.com.au" className="flex items-center gap-2">
             <MdEmail className="size-6" />
-            Numberplatesads@gmail.com
+            accounts@numberplates.com.au
         </a>
         <a href="tel:+61412345678" className='flex items-center gap-2 mt-2'>
             <IoCall  className='size-6'/> 0415 45 45 45
