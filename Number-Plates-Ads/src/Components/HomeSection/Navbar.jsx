@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
     <div className=' sticky bg-white drop-shadow-md z-50 top-0'>
         <header className=' flex justify-between px-2 py-2 items-center md:px-24  '>
-        <img src={logo} alt="Number Plates Ads Logo" className='w-24 hover:cursor-pointer xl:ml-7 xl:w-32'/>
+        <NavLink to="/"><img src={logo} alt="Number Plates Ads Logo" className='w-24 hover:cursor-pointer xl:ml-7 xl:w-32'/></NavLink>
         <nav className='md:flex '>
             <ul className=' hidden md:flex justify-between gap-8 list-none text-lg cursor-pointer'>
                 <li className='font-sans transition-all hover:text-yellow-600 active:text-yellow-600'><NavLink to="/">Home</NavLink></li>

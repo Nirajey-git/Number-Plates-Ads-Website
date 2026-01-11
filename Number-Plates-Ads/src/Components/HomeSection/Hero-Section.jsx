@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export const Hero = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="relative z-10  w-full overflow-hidden bg-gradient-to-br from-[#f8f3e3] via-white to-[#f9f6ed] dark:from-gray-900 dark:via-gray-800 dark:to-[#1a3c34] lg:h-[650px]">
@@ -21,10 +23,10 @@ export const Hero = () => {
                 unforgettable.
               </p>
               <div className="flex justify-center gap-4">
-                <button className="px-2 py-2 w-32 bg-amber-500 rounded-lg text-white cursor-pointer hover:bg-amber-600 ">
+                <button onClick={() => navigate("/contact")}className="px-2 py-2 w-32 bg-amber-500 rounded-lg text-white cursor-pointer hover:bg-amber-600 ">
                   Contact Us
                 </button>
-                <button className="px-2 py-2 text-base border-2 border-[#52AF83] text-[#52AF83] hover:bg-[#52AF83]/10 transition-colors rounded-lg">
+                <button  onClick={() => navigate("/products")}className="px-2 py-2 text-base border-2 border-[#52AF83] text-[#52AF83] hover:bg-[#52AF83]/10 transition-colors rounded-lg">
                   View Products
                 </button>
               </div>
